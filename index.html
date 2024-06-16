@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Pixel Paint Project | Created by Adarsh Nema</title>
+</head>
+
+<body>
+    <div class="wrapper animate__animated animate__fadeIn">
+        <h1 class="animate__animated animate__bounceInDown">Pixel Paint</h1>
+        <p class="description">Create your own pixel art masterpiece with ease. Choose your grid size, select colors, and start painting!</p>
+        <div class="options">
+            <div class="opt-wrapper">
+                <div class="slider">
+                    <label for="width-range">Grid Width</label>
+                    <input type="range" id="width-range" min="1" max="50">
+                    <span id="width-value">00</span>
+                </div>
+                <div class="slider">
+                    <label for="height-range">Grid Height</label>
+                    <input type="range" id="height-range" min="1" max="50">
+                    <span id="height-value">00</span>
+                </div>
+            </div>
+            <div class="opt-wrapper">
+                <button id="submit-grid" class="animate__animated animate__zoomIn">Create Grid</button>
+                <button id="clear-grid" class="animate__animated animate__zoomIn">Clear Grid</button>
+                <input type="color" id="color-input" class="animate__animated animate__zoomIn">
+                <button id="erase-btn" class="animate__animated animate__zoomIn">Erase</button>
+                <button id="paint-btn" class="animate__animated animate__zoomIn">Paint</button>
+            </div>
+        </div>
+        <div class="container"></div>
+        <footer class="footer">Created by Adarsh Nema</footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
