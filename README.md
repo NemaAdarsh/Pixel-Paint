@@ -28,13 +28,13 @@ You need a modern web browser to run this project.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/pixel-art-generator.git
+    git clone https://github.com/NemaAdarsh/Pixel-Paint.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd pixel-art-generator
+    cd Pixel-Paint
     ```
 
 3. Open `index.html` in your web browser to start the application.
